@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 48px;
+}
+body{
+    height: auto;
+    width: auto;
+    background-image: url(assets/5529077.jpg);
+    background-color: white;
+}
+.container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    border: 2px solid black;
+    width: 240.30px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 12px;
+    text-align: right;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.row{
+    display: flex;
+}
+.btn{
+    border: 2px solid black;
+    padding: 24px;
+}
+#clear{
+    background-color: rgb(185, 90, 90);
+}
